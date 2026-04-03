@@ -1,11 +1,11 @@
-/* No margin or padding in body tags margin 10px to all of the p tags inside body tags You must use nested declarations */
 $margin: 0;
 $padding: 10px;
 
 body {
     margin: $margin;
     padding: $padding;
-}
-body p {
-    margin: $margin;
+
+    p {
+        margin: $margin;
+    }
 }
