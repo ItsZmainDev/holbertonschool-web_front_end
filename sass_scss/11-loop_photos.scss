@@ -1,7 +1,7 @@
-@use "11-photos.scss" as photos;
+@use "11-photos.scss" as source;
 
-@each $name in photos.$list-names {
+@each $name in source.$list-names {
     .photo-#{$name} {
-        background: image-url("11-photos/#{$name}.jpg");
+        background: image-url("photos/#{$name}.jpg") no-repeat;
     }
 }
