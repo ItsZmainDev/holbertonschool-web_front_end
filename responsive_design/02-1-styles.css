@@ -441,7 +441,7 @@ ul.row {
 }
 
 @media (max-width: 767px) {
-    .navbar-menu ‘ {
+    .navbar-menu {
         display: none;
     }
 }
@@ -584,7 +584,7 @@ ul.row {
     flex-direction: row-reverse;
 }
 
-@media (max-width: 747px) {
+@media (max-width: 767px) {
     .section-latest-news .row {
         flex-direction: column;
     }
