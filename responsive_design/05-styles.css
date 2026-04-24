@@ -487,7 +487,6 @@ ul.row {
 
 .header .menu-icon {
     cursor: pointer;
-    display: none;
     padding: 2.5rem;
     position: relative;
     user-select: none;
